@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Ignorar o arquivo de bloco de notas chamado "Deploy Angular Netlify.txt"
+Deploy Angular Netlily.txt
