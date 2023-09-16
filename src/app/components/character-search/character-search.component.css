@@ -1,0 +1,23 @@
+.container-character-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.character-search-box {
+    display: flex;
+    align-items: flex-end;
+}
+
+input {
+    padding-top: 5px;
+    margin-top: 3px;
+    font-size: 16px;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+button {
+    margin-left: 3px;
+    padding: 5px;
+}

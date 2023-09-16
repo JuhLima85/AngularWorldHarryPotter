@@ -1,0 +1,28 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+
+* {
+    font-family: 'Harry Potter', sans-serif;
+}
+
+.header-container ul {
+    background-color: orange;
+    border-radius: 0 0 20px 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: auto;
+    font-size: larger;
+}
+
+.header-container li {
+    background-color: orange;
+    height: 50px;
+    padding: 8px 40px;
+}
+
+.header-container a {
+    background-color: orange;
+    color: #000;
+}

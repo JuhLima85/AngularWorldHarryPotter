@@ -1,0 +1,42 @@
+<div class="container-char">
+    <div class="container-character-search">
+        <h3>Digite o nome do personagem para conhecê-lo melhor:</h3>
+        <span>Dica: Tente pesquisar digitando nome o sobrenome.</span>
+        <span>Ex: Harry Potter; Ronald Weasley.</span>
+        <div class="character-search-box">
+            <input type="text" #characterNameInput (keyup.enter)="getCharacter(characterNameInput.value)">
+            <button (click)="getCharacter(characterNameInput.value)">Pesquisar</button>
+        </div>
+    </div>
+    <div class="container-error">
+        <div class="error-message">
+            <p *ngIf="errorMessage">{{ errorMessage }}</p>
+        </div>
+    </div>
+    <div class="character-card-container">
+        <div class="title-character">
+            <img [src]="character.data.attributes.image" height="100px" alt="">
+            <h3>{{ character.data.attributes.name }}</h3>
+        </div>
+        <div class="content-character">
+            <div class="default-character">
+                <p>Casa: {{ character.data.attributes.house }}</p>
+            </div>
+            <div class="default-character">
+                <p>Nascimento: {{ character.data.attributes.born }}</p>
+            </div>
+            <div class="default-character">
+                <p>Ancestralidade: {{ character.data.attributes.blood_status }}</p>
+            </div>
+            <div class="default-character">
+                <p>Patrono: {{ character.data.attributes.patronus }}</p>
+            </div>
+            <div class="default-character">
+                <p>Bicho-papão: {{ character.data.attributes.boggart }}</p>
+            </div>
+            <div class="default-character">
+                <p>Espécie: {{ character.data.attributes.species }}</p>
+            </div>
+        </div>
+    </div>
+</div>

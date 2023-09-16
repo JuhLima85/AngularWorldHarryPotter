@@ -1,0 +1,112 @@
+.container-char {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* {
+    background-color: #535353;
+    color: #000;
+    border-radius: 20px;
+}*/
+
+.character-card-container * {
+    background-color: #535353;
+    color: #000;
+}
+
+.character-card-container {
+    margin-top: 20px;
+    width: 260px;
+    min-height: 350px;
+}
+
+.title-character {
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+
+.title-character img {
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #3d3d3d;
+}
+
+.content-character {
+    border-radius: 0 0 20px 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.default-character {
+    margin: 0px 10px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 250px;
+}
+
+.wand-character {
+    padding-left: 10px;
+}
+
+/* CSS do container-search */
+
+.container-character-search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-character-search span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: grey;
+}
+
+.character-search-box {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+
+input {
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 3px;
+    font-size: 16px;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+button {
+    margin-left: 3px;
+    padding: 5px;
+}
+
+/* CSS para container-error */
+
+.error-message {
+    margin-bottom: 10px;
+}
+
+.container-error p {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: red;
+}
+
+.container-error span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: grey;
+}

@@ -1,0 +1,63 @@
+* {
+    color: #000;
+}
+
+.school-container {
+    background-color: #535353;
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    width: 600px;
+    height: auto;
+}
+
+.school-container h2 {
+    background-color: #535353;
+}
+
+.school-container img {
+    background-color: #535353;
+    height: 180px;
+}
+
+.content-school {
+    background-color: #535353;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-size: 14px;
+}
+
+.content-school p {
+    background-color: #535353;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .school-container {
+        width: 80%; /* Reduza a largura do contêiner para que ele se ajuste à tela */
+        margin: 10px auto; /* Centralize o contêiner na tela */
+        padding: 10px; /* Reduza o espaço interno do contêiner */
+    }
+
+    .school-container h2 {
+        font-size: 1.5rem; /* Reduza o tamanho da fonte do cabeçalho */
+    }
+
+    .school-container img {
+        height: auto; /* Permita que a altura da imagem se ajuste automaticamente */
+        max-width: 100%; /* Garanta que a imagem não seja maior que a largura da tela */
+    }
+
+    .content-school {
+        flex-direction: column; /* Coloque os elementos em coluna para empilhá-los verticalmente */
+        font-size: 1rem; /* Reduza o tamanho da fonte do conteúdo */
+    }
+
+    .content-school p {
+        margin: 10px 0; /* Adicione um espaço superior e inferior para separar os parágrafos */
+        text-align: left; /* Alinhe o texto à esquerda para facilitar a leitura em telas pequenas */
+    }
+}
