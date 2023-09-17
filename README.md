@@ -1,27 +1,31 @@
-# Jkrworld
+# Projeto Angular - Mundo Harry Potter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+Desenvolvi esta aplicação com o objetivo de treinar e demonstrar algumas das minhas habilidades com Angular, enfatizando a capacidade de criar componentes reutilizáveis, gerenciar rotas, consumir APIs externas, como a API PotterDB, para fornecer informações detalhadas sobre os personagens de Harry Potter, e criar formulários interativos para  pesquisa de personagens.
 
-## Development server
+Acesse a aplicação online: [https://worldhp.netlify.app/](https://worldhp.netlify.app/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Acesse mais informações sobre a aplicação: [https://codedeving.netlify.app](https://codedeving.netlify.app)
 
-## Code scaffolding
+## Tecnologias e Recursos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- *Angular*: Para criar componentes reutilizáveis e para gerenciar as rotas da minha aplicação.
+- *API PotterDB*: Consumi uma API pública para buscar informações sobre os personagens de Harry Potter.
+
+## Inicializar Aplicação
+Execute `ng serve` para inicializar o servidor da aplicação e acesse `http://localhost:4200/`.
 
 ## Build
+Execute `ng build --configuration=production` para compilar o projeto em modo de produção. Os artefatos de compilação serão armazenados no diretório `dist/`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tela inicial
+![image](https://github.com/JuhLima85/AngularWorldHarryPotter/assets/89745459/adfd858d-b43e-4988-92e1-6cd40daab508)
 
-## Running unit tests
+<br/>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### 
+## Autora
+Juliana Lima
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://contate.me/Juliana-Lima)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-%E2%9C%88%EF%B8%8F-lightgrey?style=for-the-badge)](https://codedeving.netlify.app/)
